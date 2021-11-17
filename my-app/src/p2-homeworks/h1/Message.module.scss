@@ -12,17 +12,16 @@
     
 }
 .message__right{
-    
     background-repeat: no-repeat;
     width: 90%;
     background-color:black;
     display: flex;
     margin:  5px 20px;
-    border-radius:5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    -ms-border-radius:5px;
-    -o-border-radius:5px;
+    border-radius:5px 5px 5px 0;
+    -webkit-border-radius:5px 5px 5px 0;
+    -moz-border-radius:5px 5px 5px 0;
+    -ms-border-radius:5px 5px 5px 0;
+    -o-border-radius:5px 5px 5px 0;
 }
 .message__name{
     color: blueviolet;
@@ -33,7 +32,7 @@
     margin-left: 10px;
 }
 .message__message{
-    
+    word-wrap: break-word;
     
     color: cadetblue;
 }
