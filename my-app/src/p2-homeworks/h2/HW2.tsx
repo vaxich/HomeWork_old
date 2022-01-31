@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
+import AlternativeAffairs from "./AlternativeAffairs";
 
 // types
 export type AffairPriorityType =  'high' | 'low' | 'middle' ;
@@ -61,7 +62,7 @@ function HW2() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeAffairs/>*/}
+            <AlternativeAffairs/>
             <hr/>
         </div>
     )

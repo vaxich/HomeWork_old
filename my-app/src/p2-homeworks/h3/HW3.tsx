@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import GreetingContainer from './GreetingContainer'
 import { v1 } from 'uuid';
+import AlternativeGreeting from "./AlternativeGreeting";
 
 // types
 export type UserType = {
@@ -37,7 +38,7 @@ function HW3() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeGreeting/>*/}
+            <AlternativeGreeting/>
             <hr/>
         </div>
     )
