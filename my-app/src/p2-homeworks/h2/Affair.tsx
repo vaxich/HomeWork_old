@@ -6,7 +6,7 @@ type AffairPropsType = {
     affair:AffairType // need to fix any
 
 
-    deleteAffairCallback: any // need to fix any
+    deleteAffairCallback: (id:number) => void // need to fix any
 }
 
 function Affair(props: AffairPropsType) {

@@ -4,7 +4,7 @@ import { UserType } from './HW3'
 
 type GreetingContainerPropsType = {
     users: Array<UserType> // need to fix any
-    addUserCallback: any // need to fix any
+    addUserCallback: (name:string) => void // need to fix any
 
 }
 
@@ -33,19 +33,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
         } else {
             setError("поле не может быть пустым");
         }
-
-
-
-        
-
     }
 
-
-
     const totalUsers = users.length // need to fix
-
-
-
     return (
         <Greeting
             name={name}

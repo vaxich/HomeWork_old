@@ -17,7 +17,7 @@ function HW4() {
     }
 
     const [checked, setChecked] = useState<boolean>(false)
-    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
+    const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)// ????
 
     return (
         <div>
@@ -30,7 +30,8 @@ function HW4() {
                     onChangeText={setText}
                     onEnter={showAlert}
                     error={error}
-                    // spanClassName={s.testSpanError}
+                    className={s.blue}
+                    spanClassName={s.blue}
                 />
 
                 <SuperInputText
@@ -58,7 +59,7 @@ function HW4() {
 
                 <SuperCheckbox
                     checked={checked}
-                    onChangeChecked={setChecked}
+                    setChecked={setChecked}
                 >
                     some text {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
