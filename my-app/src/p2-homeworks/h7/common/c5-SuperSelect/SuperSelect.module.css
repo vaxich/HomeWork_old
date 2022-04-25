@@ -1,0 +1,12 @@
+.option {
+    color:aquamarine;
+    background: blueviolet;
+}
+.option:chacked {
+    background: blue;
+    color: brown;
+}
+.option:hover{
+    background: red;
+    transition: all;
+}
