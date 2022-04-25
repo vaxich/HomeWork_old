@@ -5,12 +5,14 @@ import { Route} from 'react-router-dom'
 import Error404 from './pages/Error404'
 import Junior from './pages/Junior'
 import JuniorPlus from './pages/JuniorPlus'
+import JuniorSuperPlus from './pages/JuniorSuperPlus'
 import PreJunior from './pages/PreJunior'
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
-    JUNIOR_PLUS: '/junior-plus'
+    JUNIOR_PLUS: '/junior-plus',
+    JUNIOR_SUPER_PLUS: '/junior-super-plus',
     
 }
 
@@ -27,6 +29,7 @@ function Routes() {
             <Route path={PATH.PRE_JUNIOR} render={() => <PreJunior/>}/>
             <Route path={PATH.JUNIOR} render={() => <Junior/>}/>
             <Route path={PATH.JUNIOR_PLUS} render={() => <JuniorPlus/>}/>
+            <Route path={PATH.JUNIOR_SUPER_PLUS} render={() => <JuniorSuperPlus/>}/>
                
 
             {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}

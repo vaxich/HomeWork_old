@@ -17,9 +17,9 @@
 }
 .header {
     display: flex;
-    width: 280px;
+    width: 480px;
     transition-duration: 500ms;
-    transform: translate(-220px);
+    transform: translate(-320px);
 }
 .header:hover {
     transition-duration: 500ms;
