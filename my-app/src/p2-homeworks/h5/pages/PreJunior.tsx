@@ -9,8 +9,8 @@ function PreJunior() {
     return (
         <div>
             <HW1/>
-            
-            <HW6/>
+            <HW2/>
+            <HW3/>
 
         </div>
     )
